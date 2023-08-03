@@ -80,7 +80,7 @@ body {
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 990px) {
   .navbar {
     padding: 5%;
   }
@@ -144,6 +144,8 @@ body {
 
 }
 
+
+
 .navbar-items.active {
   display: flex;
   flex-direction: column;
@@ -178,7 +180,7 @@ body {
 }
 
 .div1 {
-    padding-top: 100px;
+    padding-top: 150px;
   background-color: #4230dd;
   background-image: url("https://assets-global.website-files.com/5e4482baa13a1926b23e2187/5e7a6c9e85f232ad74facce4_home-hero.jpg");
   background-size: cover;
@@ -887,4 +889,24 @@ body {
   .social-icons a{
     padding: 0px;
   }
+}
+
+
+@media only screen and (min-width: 701px)  {
+    
+    .navbar-logo img{
+        width: 80%;
+    }
+
+    .div1{
+        width: auto;
+    }
+
+    .frDiv{
+        width: fit-content;
+    }
+
+    .container1{
+        width: fit-content;
+    }
 }
